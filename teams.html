@@ -7,8 +7,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-	<title>Index</title>
+	<title>Teams</title>
 	<link rel="stylesheet" href="css/main.css">
+
+	<script>
+		window.onload = function () {
+			var x = document.querySelectorAll(".eliminated .p-eliminat");
+			for (i = 0; i < x.length; i++) {
+				x[i].innerHTML = "Eliminated";
+			}
+			var x = document.querySelectorAll(".alive .p-eliminat");
+			for (i = 0; i < x.length; i++) {
+				x[i].innerHTML = "Alive";
+			}
+		}
+	</script>
 
 </head>
 
@@ -48,9 +61,324 @@
   </div>
 </nav>
 
-
 <body>
-  <h1>Welcome to the FIFA WORLD CUP 2018!</h1>
+	<div id="teams">
+		<h1>National Teams</h1>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Argentina</h5>
+				<img class="banderes" src="images/flags/arg.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Australia</h5>
+				<img class="banderes" src="images/flags/aus.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Belgium</h5>
+				<img class="banderes" src="images/flags/bel.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Brazil</h5>
+				<img class="banderes" src="images/flags/bra.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Colombia</h5>
+				<img class="banderes" src="images/flags/col.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Costa Rica</h5>
+				<img class="banderes" src="images/flags/crc.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="alive card">
+		      <div class="card-body">
+		        <h5 class="card-title">Croatia</h5>
+				<img class="banderes" src="images/flags/cro.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Denmark</h5>
+				<img class="banderes" src="images/flags/den.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Egypt</h5>
+				<img class="banderes" src="images/flags/egy.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="alive card">
+		      <div class="card-body">
+		        <h5 class="card-title">England</h5>
+				<img class="banderes" src="images/flags/eng.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="alive card">
+		      <div class="card-body">
+		        <h5 class="card-title">France</h5>
+				<img class="banderes" src="images/flags/fra.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Germany</h5>
+				<img class="banderes" src="images/flags/ger.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Iceland</h5>
+				<img class="banderes" src="images/flags/isl.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">IR Iran</h5>
+				<img class="banderes" src="images/flags/irn.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Japan</h5>
+				<img class="banderes" src="images/flags/jpn.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Korea Republic</h5>
+				<img class="banderes" src="images/flags/kor.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Mexico</h5>
+				<img class="banderes" src="images/flags/mex.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Morocco</h5>
+				<img class="banderes" src="images/flags/mar.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Nigeria</h5>
+				<img class="banderes" src="images/flags/nga.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Panama</h5>
+				<img class="banderes" src="images/flags/pan.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Peru</h5>
+				<img class="banderes" src="images/flags/per.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Poland</h5>
+				<img class="banderes" src="images/flags/pol.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Portugal</h5>
+				<img class="banderes" src="images/flags/por.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Russia</h5>
+				<img class="banderes" src="images/flags/rus.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Saudi Arabia</h5>
+				<img class="banderes" src="images/flags/ksa.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Senegal</h5>
+				<img class="banderes" src="images/flags/sen.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Serbia</h5>
+				<img class="banderes" src="images/flags/srb.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Spain</h5>
+				<img class="banderes" src="images/flags/esp.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+		<br>
+		<div class="row">
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Sweden</h5>
+				<img class="banderes" src="images/flags/swe.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Switzerland</h5>
+				<img class="banderes" src="images/flags/sui.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Tunisia</h5>
+				<img class="banderes" src="images/flags/tun.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="col-sm-3">
+		    <div class="eliminated card">
+		      <div class="card-body">
+		        <h5 class="card-title">Uruguay</h5>
+				<img class="banderes" src="images/flags/uru.png" alt="arg">
+				<p class="p-eliminat"></p>
+		      </div>
+		    </div>
+		  </div>
+	  	</div>
+	</div>
+
+
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

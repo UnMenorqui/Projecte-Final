@@ -101,7 +101,9 @@
     <label for="exampleFormControlTextarea1">Message</label>
     <textarea id="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Describe the problem wisely..." onchange="comprovacontacte()"></textarea>
   </div>
-  <button id="boto-submit-contact" type="submit" class="btn btn-light" onclick="messagesended()" title="Fill all fields!" disabled="disabled">Submit</button>
+  <button id="boto-submit-contact" type="button" class="btn btn-secondary" data-container="body" onclick="messagesended()" data-toggle="popover" data-placement="bottom" data-content="Fill all fields to begin." disabled="disabled">
+  Submit
+</button>
 </form>
 
   <!-- Optional JavaScript -->

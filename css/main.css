@@ -31,6 +31,38 @@ a {
     text-align: center;
 }
 
+.banderes {
+    width: 40%;
+    height: 40%;
+}
+
+.bandera-petita {
+    width: 20%;
+    height: 20%;
+}
+
+.card {background-color: rgba(52, 222, 82, 0.2);}
+.eliminated { background-color: rgba(230, 78, 82, 0.2);}
+
+#grupA {
+    margin-left: 33%;
+}
+
+#group-table {
+    position: absolute;
+    margin-top: 2%;
+}
+
+#noticies {
+    position: absolute;
+    margin-top: 2%;
+}
+
+#teams {
+    position: absolute;
+    margin-top: 2%;
+}
+
 #formulari-contacte {
     width: 80%;
     height: 100%;
