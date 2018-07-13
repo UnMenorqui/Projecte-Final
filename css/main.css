@@ -19,6 +19,12 @@ a {
     color: #112263;
 }
 
+.carousel {
+    margin-left: 2% !important;
+    width: 100%;
+    margin-right: 2% !important;
+}
+
 .footer {
     position: fixed;
     left: 0;
